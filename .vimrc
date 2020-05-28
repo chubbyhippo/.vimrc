@@ -1,10 +1,6 @@
 syntax on
 let python_hightlight_all=1
 filetype plugin on
-let g:netrw_banner=0
-let g:netrw_browse_split=4
-let g:netrw_altv=1
-let g:netrw_liststyle=3
 
 set autoread
 au CursorHold,FocusGained,BufEnter * checktime
@@ -61,6 +57,7 @@ Plug 'prabirshrestha/vim-lsp'
 Plug 'chubbyhippo/vim-lsp-settings'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'mattn/emmet-vim'
 call plug#end()
 
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
