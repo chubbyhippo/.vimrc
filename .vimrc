@@ -18,6 +18,7 @@ set textwidth=79
 set showmatch
 set matchtime=3
 set backspace=indent,eol,start
+set modifiable
 set fileformat=unix
 set laststatus=2
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
