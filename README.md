@@ -1,12 +1,13 @@
 # vimrc
+## wget
 ```
 wget https://raw.githubusercontent.com/chubbyhippo/vimrc/master/.vimrc -P ~
 ```
+## curl
 ```
 curl https://raw.githubusercontent.com/chubbyhippo/vimrc/master/.vimrc -o ~/.vimrc
 ```
+## powershell
 ```
-$WebClient=New-Object Net.WebClient
-$Uri='https://raw.githubusercontent.com/chubbyhippo/vimrc/master/.vimrc'
-$WebClient.DownloadFile($Uri, "$Home\.vimrc")
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/chubbyhippo/vimrc/master/.vimrc" -OutFile "$Home\.vimrc"
 ```
