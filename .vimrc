@@ -29,6 +29,7 @@ let g:netrw_liststyle=3
 
 let mapleader = " "
 nnoremap <leader>eV :e $MYVIMRC<cr>
+nnoremap <leader>sV :source $MYVIMRC<cr>
 
 nnoremap <c-h> <c-w><c-h>
 nnoremap <c-j> <c-w><c-j>
