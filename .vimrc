@@ -66,6 +66,8 @@ tnoremap <c-j> <c-w><c-j>
 tnoremap <c-k> <c-w><c-k>
 tnoremap <c-l> <c-w><c-l>
 
+nnoremap <c-d> <c-d>zz
+
 inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
