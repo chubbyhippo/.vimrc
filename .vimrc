@@ -49,6 +49,8 @@ inoremap <c-h> <c-w><c-h>
 inoremap <c-j> <c-w><c-j>
 inoremap <c-k> <c-w><c-k>
 inoremap <c-l> <c-w><c-l>
+inoremap <c-s-j> <esc>:sp<cr>
+inoremap <c-s-l> <esc>:vs<cr>
 
 tnoremap <c-h> <c-w><c-h>
 tnoremap <c-j> <c-w><c-j>
