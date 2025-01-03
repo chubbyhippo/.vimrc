@@ -67,6 +67,7 @@ tnoremap <c-k> <c-w><c-k>
 tnoremap <c-l> <c-w><c-l>
 
 nnoremap <c-d> <c-d>zz
+nnoremap <c-u> <c-u>zz
 
 inoremap " ""<left>
 inoremap ' ''<left>
