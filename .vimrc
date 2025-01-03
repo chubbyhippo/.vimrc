@@ -45,10 +45,10 @@ nnoremap + <c-w>25>
 nnoremap <c-s-q> :q<cr>
 nnoremap <c-s-w> :w<cr>
 
-nnoremap <c-h> <c-w><c-h>
-nnoremap <c-j> <c-w><c-j>
-nnoremap <c-k> <c-w><c-k>
-nnoremap <c-l> <c-w><c-l>
+nnoremap <c-h> <c-w>h
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-l> <c-w>l
 nnoremap <c-s-j> :sp<cr>
 nnoremap <c-s-l> :vs<cr>
 
