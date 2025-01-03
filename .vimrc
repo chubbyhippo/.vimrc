@@ -2,6 +2,7 @@ syntax enable
 colorscheme murphy
 filetype plugin on
 
+set hidden
 set nocompatible
 set encoding=utf-8
 set number relativenumber
