@@ -33,14 +33,15 @@ let mapleader = " "
 nnoremap <leader>eV :e $MYVIMRC<cr>
 nnoremap <leader>sV :source $MYVIMRC<cr>
 
-nnoremap <c-h> <c-w><c-h>
-nnoremap <c-j> <c-w><c-j>
-nnoremap <c-k> <c-w><c-k>
-nnoremap <c-l> <c-w><c-l>
 nnoremap - <c-w>5-
 nnoremap = <c-w>5+
 nnoremap _ <c-w>25<
 nnoremap + <c-w>25>
+
+nnoremap <c-h> <c-w><c-h>
+nnoremap <c-j> <c-w><c-j>
+nnoremap <c-k> <c-w><c-k>
+nnoremap <c-l> <c-w><c-l>
 
 inoremap <c-h> <c-w><c-h>
 inoremap <c-j> <c-w><c-j>
