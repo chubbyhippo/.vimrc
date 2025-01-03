@@ -62,10 +62,10 @@ nnoremap <c-s-j> <c-w>J
 nnoremap <c-s-k> <c-w>K
 inoremap <c-s-l> <c-w>L
 
-tnoremap <c-h> <c-w><c-h>
-tnoremap <c-j> <c-w><c-j>
-tnoremap <c-k> <c-w><c-k>
-tnoremap <c-l> <c-w><c-l>
+tnoremap <c-h> <c-w>h
+tnoremap <c-j> <c-w>j
+tnoremap <c-k> <c-w>k
+tnoremap <c-l> <c-w>l
 
 nnoremap <c-d> <c-d>zz
 nnoremap <c-u> <c-u>zz
