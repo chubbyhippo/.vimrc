@@ -42,6 +42,8 @@ nnoremap <c-h> <c-w><c-h>
 nnoremap <c-j> <c-w><c-j>
 nnoremap <c-k> <c-w><c-k>
 nnoremap <c-l> <c-w><c-l>
+nnoremap <c-s-j> :sp<cr>
+nnoremap <c-s-l> :vs<cr>
 
 inoremap <c-h> <c-w><c-h>
 inoremap <c-j> <c-w><c-j>
