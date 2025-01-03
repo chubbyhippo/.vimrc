@@ -31,6 +31,7 @@ let g:netrw_liststyle=3
 imap jj <esc>
 
 let mapleader = " "
+nnoremap <leader><leader> <c-^>
 nnoremap <leader>eV :e $MYVIMRC<cr>
 nnoremap <leader>sV :source $MYVIMRC<cr>
 nnoremap <leader>b :buffers<cr>:buffer<space>
