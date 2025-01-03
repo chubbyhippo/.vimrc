@@ -52,8 +52,11 @@ inoremap <c-h> <c-w><c-h>
 inoremap <c-j> <c-w><c-j>
 inoremap <c-k> <c-w><c-k>
 inoremap <c-l> <c-w><c-l>
-inoremap <c-s-j> <esc>:sp<cr>
-inoremap <c-s-l> <esc>:vs<cr>
+
+nnoremap <c-s-h> <c-w>H
+nnoremap <c-s-j> <c-w>J
+nnoremap <c-s-k> <c-w>K
+inoremap <c-s-l> <c-w>L
 
 tnoremap <c-h> <c-w><c-h>
 tnoremap <c-j> <c-w><c-j>
