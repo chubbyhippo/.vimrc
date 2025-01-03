@@ -52,10 +52,10 @@ nnoremap <c-l> <c-w>l
 nnoremap <c-s-j> :sp<cr>
 nnoremap <c-s-l> :vs<cr>
 
-inoremap <c-h> <c-w><c-h>
-inoremap <c-j> <c-w><c-j>
-inoremap <c-k> <c-w><c-k>
-inoremap <c-l> <c-w><c-l>
+inoremap <c-h> <c-w>h
+inoremap <c-j> <c-w>j
+inoremap <c-k> <c-w>k
+inoremap <c-l> <c-w>l
 
 nnoremap <c-s-h> <c-w>H
 nnoremap <c-s-j> <c-w>J
