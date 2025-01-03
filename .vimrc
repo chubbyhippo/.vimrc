@@ -27,6 +27,8 @@ set autoread
 
 let g:netrw_liststyle=3
 
+imap jj <esc>
+
 let mapleader = " "
 nnoremap <leader>eV :e $MYVIMRC<cr>
 nnoremap <leader>sV :source $MYVIMRC<cr>
