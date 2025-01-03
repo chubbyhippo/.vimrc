@@ -38,6 +38,9 @@ nnoremap = <c-w>5+
 nnoremap _ <c-w>25<
 nnoremap + <c-w>25>
 
+nnoremap <c-s-q> :q<cr>
+nnoremap <c-s-w> :w<cr>
+
 nnoremap <c-h> <c-w><c-h>
 nnoremap <c-j> <c-w><c-j>
 nnoremap <c-k> <c-w><c-k>
