@@ -33,6 +33,7 @@ let g:netrw_liststyle=3
 
 imap jj <esc>
 
+nnoremap <space> :noh<cr> 
 let mapleader = " "
 nnoremap <leader><leader> <c-^>
 nnoremap <leader>ap :Explore<cr>
