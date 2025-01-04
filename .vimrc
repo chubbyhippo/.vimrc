@@ -35,6 +35,7 @@ imap jj <esc>
 
 let mapleader = " "
 nnoremap <leader><leader> <c-^>
+nnoremap <leader>at :sh<cr>
 nnoremap <leader>eV :e $MYVIMRC<cr>
 nnoremap <leader>sV :source $MYVIMRC<cr>
 nnoremap <leader>b :buffers<cr>:buffer<space>
