@@ -51,6 +51,7 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
 nnoremap <c-s-h> <c-w>H
 nnoremap <c-s-j> <c-w>J
+nnoremap <c-s-k> <c-w>K
 nnoremap <c-s-l> <c-w>L
 
 inoremap <c-h> <c-w>h
