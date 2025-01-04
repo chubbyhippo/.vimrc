@@ -39,6 +39,7 @@ nnoremap <leader>at :sh<cr>
 nnoremap <leader>eV :e $MYVIMRC<cr>
 nnoremap <leader>sV :source $MYVIMRC<cr>
 nnoremap <leader>b :buffers<cr>:buffer<space>
+nnoremap <leader>w :w<cr>
 
 nnoremap - <c-w>5-
 nnoremap = <c-w>5+
