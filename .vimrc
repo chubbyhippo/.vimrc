@@ -2,30 +2,30 @@ syntax enable
 colorscheme murphy
 filetype plugin on
 
-set clipboard^=unnamed,unnamedplus
-set hidden
-set nocompatible
-set encoding=utf-8
-set number relativenumber
-set splitbelow splitright
-set tabstop=4
-set softtabstop=4
 set autoindent
-set expandtab
-set shiftwidth=4
-set textwidth=79
-set showmatch
-set matchtime=3
+set autoread
 set backspace=indent,eol,start
-set modifiable
+set clipboard^=unnamed,unnamedplus
+set encoding=utf-8
+set expandtab
 set fileformat=unix
-set laststatus=2
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
-set path+=**
-set wildmenu
+set hidden
 set hlsearch
 set incsearch
-set autoread
+set laststatus=2
+set matchtime=3
+set modifiable
+set nocompatible
+set number relativenumber
+set path+=**
+set shiftwidth=4
+set showmatch
+set softtabstop=4
+set splitbelow splitright
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
+set tabstop=4
+set textwidth=79
+set wildmenu
 
 let g:netrw_liststyle=3
 
