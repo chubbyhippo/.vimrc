@@ -80,6 +80,7 @@ nnoremap <c-d> <c-d>zz
 nnoremap <c-u> <c-u>zz
 
 inoremap " ""<left>
+inoremap """ """"""<left><left><left>
 inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
