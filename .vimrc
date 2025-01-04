@@ -7,6 +7,7 @@ set autoread
 set backspace=indent,eol,start
 set clipboard^=unnamed,unnamedplus
 set encoding=utf-8
+set fileencoding=utf-8
 set expandtab
 set fileformat=unix
 set hidden
