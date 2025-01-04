@@ -82,7 +82,6 @@ nnoremap <c-u> <c-u>zz
 inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
-inoremap () ()
 inoremap [ []<left>
 inoremap [<CR> [<CR>]<ESC>O
 inoremap [;<CR> [<CR>];<ESC>O
