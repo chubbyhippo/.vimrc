@@ -50,7 +50,7 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
 nnoremap <c-s-j> <c-w>J
-nnoremap <c-s-l> :vs<cr>
+nnoremap <c-s-l> <c-w>L
 
 inoremap <c-h> <c-w>h
 inoremap <c-j> <c-w>j
