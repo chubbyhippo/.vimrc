@@ -26,6 +26,7 @@ set splitbelow splitright
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
 set tabstop=4
 set textwidth=79
+set termguicolors
 set wildmenu
 
 let g:netrw_liststyle=3
