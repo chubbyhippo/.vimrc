@@ -38,6 +38,7 @@ nnoremap <space> :noh<cr>
 let mapleader = " "
 nnoremap <leader><leader> <c-^>
 nnoremap <leader>ap :Explore<cr>
+nnoremap <leader>aq :copen
 nnoremap <leader>at :terminal<cr>
 nnoremap <leader>eV :e $MYVIMRC<cr>
 nnoremap <leader>sf :find<space>
