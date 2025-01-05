@@ -41,7 +41,7 @@ nnoremap <leader>ap :Explore<cr>
 nnoremap <leader>at :terminal<cr>
 nnoremap <leader>eV :e $MYVIMRC<cr>
 nnoremap <leader>sf :find<space>
-nnoremap <leader>st :grep<space>
+nnoremap <silent> <leader>st :copen<bar>:grep<space>
 nnoremap <leader>sV :source $MYVIMRC<cr>
 nnoremap <leader>b :buffers<cr>:buffer<space>
 nnoremap <leader>w :w<cr>
