@@ -2,6 +2,7 @@ syntax enable
 colorscheme murphy
 filetype plugin on
 
+set belloff=all
 set grepprg=grep\ -HIRin\ $*\ .
 set autoindent
 set autoread
