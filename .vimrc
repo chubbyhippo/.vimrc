@@ -2,7 +2,7 @@ syntax enable
 colorscheme murphy
 filetype plugin on
 
-set grepprg=grep\ -HIRin\ $*\ .\ \|\ copen
+set grepprg=grep\ -HIRin\ $*\ .
 set autoindent
 set autoread
 set backspace=indent,eol,start
