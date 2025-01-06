@@ -22,6 +22,7 @@ set number relativenumber
 set path+=**
 set shiftwidth=4
 set showmatch
+set showcmd
 set softtabstop=4
 set splitbelow splitright
 set tabstop=4
