@@ -29,8 +29,6 @@ set textwidth=120
 set termguicolors
 set wildmenu
 
-" Enable statusline for all windows
-set laststatus=2
 " Begin the statusline
 set statusline=%<                       " Truncate the text if it's too long
 set statusline+=%f                      " Full file path and name
@@ -38,12 +36,14 @@ set statusline+=\ %h                    " Help flag '[help]'
 set statusline+=\ %r                    " Readonly flag '[readonly]'
 set statusline+=\ %m                    " Modified flag '[+]'
 set statusline+=%=                      " Right-align everything following this
+
 " Add file type, format, and encoding information
-set statusline+=%y                  " File type (e.g., python)
-set statusline+=[%{&fileformat}]      " File format (unix/dos/mac)
-set statusline+=[%{&fileencoding}]    " File encoding (utf-8, etc.)
+set statusline+=%y                      " File type (e.g., python)
+set statusline+=[%{&fileformat}]        " File format (unix/dos/mac)
+set statusline+=[%{&fileencoding}]      " File encoding (utf-8, etc.)
+
 " Add line/column and percentage formatting
-set statusline+=\ %-14.(%l,%c%V%)         " Line number, column, virtual column
+set statusline+=\ %-14.(%l,%c%V%)       " Line number, column, virtual column
 set statusline+=\ [%P]                  " Percentage of the file read
 
 let g:netrw_liststyle=3
