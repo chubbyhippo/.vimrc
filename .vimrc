@@ -98,11 +98,3 @@ tnoremap <c-l> <c-w>l
 
 nnoremap <c-d> <c-d>zz
 nnoremap <c-u> <c-u>zz
-
-" Set cursor shape
-if has("termguicolors")
-    let &t_ti = "\e[1 q"  " Block cursor on start
-    let &t_SI = "\e[5 q"  " Blinking bar in insert mode
-    let &t_EI = "\e[1 q"  " Block cursor in normal mode
-    let &t_te = "\e[0 q"  " Restore cursor on exit
-endif
