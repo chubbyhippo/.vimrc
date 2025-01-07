@@ -99,17 +99,6 @@ tnoremap <c-l> <c-w>l
 nnoremap <c-d> <c-d>zz
 nnoremap <c-u> <c-u>zz
 
-inoremap " ""<left>
-inoremap """ """"""<left><left><left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap [<CR> [<CR>]<ESC>O
-inoremap [;<CR> [<CR>];<ESC>O
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
-
 " Set cursor shape
 if has("termguicolors")
     let &t_ti = "\e[1 q"  " Block cursor on start
