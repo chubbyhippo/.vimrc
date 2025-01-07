@@ -37,12 +37,10 @@ set statusline+=\ %h                    " Help flag '[help]'
 set statusline+=\ %r                    " Readonly flag '[readonly]'
 set statusline+=\ %m                    " Modified flag '[+]'
 set statusline+=%=                      " Right-align everything following this
-
 " Add file type, format, and encoding information
 set statusline+=%y                      " File type (e.g., python)
 set statusline+=[%{&fileformat}]        " File format (unix/dos/mac)
 set statusline+=[%{&fileencoding}]      " File encoding (utf-8, etc.)
-
 " Add line/column and percentage formatting
 set statusline+=\ %-14.(%l,%c%V%)       " Line number, column, virtual column
 set statusline+=\ [%P]                  " Percentage of the file read
