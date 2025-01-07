@@ -109,7 +109,7 @@ inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
-" Set cursor
+" Set cursor shape
 if has("termguicolors")
     let &t_ti = "\e[1 q"  " Block cursor on start
     let &t_SI = "\e[5 q"  " Blinking bar in insert mode
