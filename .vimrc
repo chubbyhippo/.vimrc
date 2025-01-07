@@ -27,7 +27,6 @@ set softtabstop=4
 set splitbelow splitright
 set tabstop=4
 set textwidth=120
-set termguicolors
 set wildmenu
 
 " Begin the statusline
