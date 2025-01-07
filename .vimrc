@@ -31,6 +31,7 @@ set termguicolors
 set wildmenu
 
 " Begin the statusline
+set laststatus=2                        " Ensures the statusline is always visible
 set statusline=%<                       " Truncate the text if it's too long
 set statusline+=%f                      " Full file path and name
 set statusline+=\ %h                    " Help flag '[help]'
