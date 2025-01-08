@@ -89,10 +89,10 @@ nnoremap <C-S-J> <C-W>J
 nnoremap <C-S-K> <C-W>K
 nnoremap <C-S-L> <C-W>L
 
-tnoremap <C-H> <c-w>h
-tnoremap <C-J> <c-w>j
-tnoremap <C-K> <c-w>k
-tnoremap <C-L> <c-w>l
+tnoremap <C-H> <C-W>h
+tnoremap <C-J> <C-W>j
+tnoremap <C-K> <C-W>k
+tnoremap <C-L> <C-W>l
 
-nnoremap <C-D> <c-d>zz
-nnoremap <C-U> <c-u>zz
+nnoremap <C-D> <C-D>zz
+nnoremap <C-U> <C-U>zz
