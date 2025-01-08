@@ -1,5 +1,5 @@
 syntax enable
-colorscheme murphy
+colorscheme desert
 filetype plugin on
 
 set belloff=all
