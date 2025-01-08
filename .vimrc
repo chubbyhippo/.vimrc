@@ -79,20 +79,20 @@ nnoremap <C-S-J> <C-W>J
 nnoremap <C-S-K> <C-W>K
 nnoremap <C-S-L> <C-W>L
 
-inoremap <c-h> <c-w>h
-inoremap <c-j> <c-w>j
-inoremap <c-k> <c-w>k
-inoremap <c-l> <c-w>l
+inoremap <C-h> <c-w>h
+inoremap <C-j> <c-w>j
+inoremap <C-k> <c-w>k
+inoremap <C-l> <c-w>l
 
-nnoremap <c-s-h> <c-w>H
-nnoremap <c-s-j> <c-w>J
-nnoremap <c-s-k> <c-w>K
-nnoremap <c-s-l> <c-w>L
+nnoremap <C-s-h> <c-w>H
+nnoremap <C-s-j> <c-w>J
+nnoremap <C-s-k> <c-w>K
+nnoremap <C-s-l> <c-w>L
 
-tnoremap <c-h> <c-w>h
-tnoremap <c-j> <c-w>j
-tnoremap <c-k> <c-w>k
-tnoremap <c-l> <c-w>l
+tnoremap <C-h> <c-w>h
+tnoremap <C-j> <c-w>j
+tnoremap <C-k> <c-w>k
+tnoremap <C-l> <c-w>l
 
-nnoremap <c-d> <c-d>zz
-nnoremap <c-u> <c-u>zz
+nnoremap <C-d> <c-d>zz
+nnoremap <C-u> <c-u>zz
