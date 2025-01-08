@@ -52,18 +52,18 @@ imap jj <Esc>
 nnoremap <Space> :noh<Cr> 
 let mapleader = " "
 nnoremap <Leader><Leader> <C-^>
-nnoremap <Leader>ap :Explore<cr>
-nnoremap <Leader>aq :copen<cr>
-nnoremap <Leader>at :terminal<cr>
-nnoremap <Leader>eV :e $MYVIMRC<cr>
-nnoremap <Leader>h :only<cr>
+nnoremap <Leader>ap :Explore<Cr>
+nnoremap <Leader>aq :copen<Cr>
+nnoremap <Leader>at :terminal<Cr>
+nnoremap <Leader>eV :e $MYVIMRC<Cr>
+nnoremap <Leader>h :only<Cr>
 nnoremap <Leader>sf :find<space>
 nnoremap <Leader>st :copen<bar>:grep<space>
-nnoremap <Leader>sV :source $MYVIMRC<cr>
+nnoremap <Leader>sV :source $MYVIMRC<Cr>
 nnoremap <Leader>b :buffers<cr>:buffer<space>
-nnoremap <Leader>w :w<cr>
-nnoremap <Leader>q :q<cr>
-nnoremap <Leader>Q :q!<cr>
+nnoremap <Leader>w :w<Cr>
+nnoremap <Leader>q :q<Cr>
+nnoremap <Leader>Q :q!<Cr>
 
 nnoremap - <c-w>5-
 nnoremap = <c-w>5+
