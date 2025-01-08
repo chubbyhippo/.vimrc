@@ -47,7 +47,7 @@ set statusline+=\ [%P]                  " Percentage of the file read
 
 let g:netrw_liststyle=3
 
-imap jj <esc>
+imap jj <Esc>
 
 nnoremap <space> :noh<cr> 
 let mapleader = " "
