@@ -27,7 +27,7 @@ set showcmd
 set softtabstop=4
 set splitbelow splitright
 set tabstop=4
-set textwidth=120
+set textwidth=79
 set wildmenu
 
 " Begin the statusline
