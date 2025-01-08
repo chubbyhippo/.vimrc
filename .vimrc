@@ -79,15 +79,15 @@ nnoremap <C-S-J> <C-W>J
 nnoremap <C-S-K> <C-W>K
 nnoremap <C-S-L> <C-W>L
 
-inoremap <C-H> <c-w>h
-inoremap <C-J> <c-w>j
-inoremap <C-K> <c-w>k
-inoremap <C-L> <c-w>l
+inoremap <C-H> <C-W>h
+inoremap <C-J> <C-W>j
+inoremap <C-K> <C-W>k
+inoremap <C-L> <C-W>l
 
-nnoremap <C-S-h> <c-w>H
-nnoremap <C-S-j> <c-w>J
-nnoremap <C-S-k> <c-w>K
-nnoremap <C-S-l> <c-w>L
+nnoremap <C-S-H> <C-W>H
+nnoremap <C-S-J> <C-W>J
+nnoremap <C-S-K> <C-W>K
+nnoremap <C-S-L> <C-W>L
 
 tnoremap <C-H> <c-w>h
 tnoremap <C-J> <c-w>j
