@@ -58,6 +58,7 @@ nnoremap <Leader>aq :copen<Cr>
 nnoremap <Leader>at :terminal<Cr>
 nnoremap <Leader>eV :e $MYVIMRC<Cr>
 nnoremap <Leader>h :only<Cr>
+nnoremap <Leader>m :marks<cr>:'
 nnoremap <Leader>sf :find<Space>
 nnoremap <Leader>st :copen<bar>:grep<Space>
 nnoremap <Leader>sV :source $MYVIMRC<Cr>
