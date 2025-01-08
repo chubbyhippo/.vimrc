@@ -8,6 +8,7 @@ set autoindent
 set autoread
 set backspace=indent,eol,start
 set clipboard^=unnamed,unnamedplus
+set cursorline
 set encoding=utf-8
 set fileencoding=utf-8
 set expandtab
