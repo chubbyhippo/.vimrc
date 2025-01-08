@@ -65,10 +65,10 @@ nnoremap <Leader>w :w<Cr>
 nnoremap <Leader>q :q<Cr>
 nnoremap <Leader>Q :q!<Cr>
 
-nnoremap - <c-w>5-
-nnoremap = <c-w>5+
-nnoremap _ <c-w>25<
-nnoremap + <c-w>25>
+nnoremap - <C-W>5-
+nnoremap = <C-W>5+
+nnoremap _ <C-W>25<
+nnoremap + <C-W>25>
 
 nnoremap <c-h> <c-w>h
 nnoremap <c-j> <c-w>j
