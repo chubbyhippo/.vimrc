@@ -51,7 +51,7 @@ imap jj <Esc>
 
 nnoremap <Space> :noh<Cr> 
 let mapleader = " "
-nnoremap <leader><leader> <c-^>
+nnoremap <Leader><Leader> <C-^>
 nnoremap <leader>ap :Explore<cr>
 nnoremap <leader>aq :copen<cr>
 nnoremap <leader>at :terminal<cr>
