@@ -70,14 +70,14 @@ nnoremap = <C-W>5+
 nnoremap _ <C-W>25<
 nnoremap + <C-W>25>
 
-nnoremap <c-h> <c-w>h
-nnoremap <c-j> <c-w>j
-nnoremap <c-k> <c-w>k
-nnoremap <c-l> <c-w>l
-nnoremap <c-s-h> <c-w>H
-nnoremap <c-s-j> <c-w>J
-nnoremap <c-s-k> <c-w>K
-nnoremap <c-s-l> <c-w>L
+nnoremap <C-H> <C-W>h
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-L> <C-W>l
+nnoremap <C-S-H> <C-W>H
+nnoremap <C-S-J> <C-W>J
+nnoremap <C-S-K> <C-W>K
+nnoremap <C-S-L> <C-W>L
 
 inoremap <c-h> <c-w>h
 inoremap <c-j> <c-w>j
