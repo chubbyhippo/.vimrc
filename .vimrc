@@ -97,3 +97,7 @@ tnoremap <C-L> <C-W>l
 
 nnoremap <C-D> <C-D>zz
 nnoremap <C-U> <C-U>zz
+
+" Automatically remove trailing whitespace on save
+autocmd BufWritePre * %s/\s\+$//e
+
