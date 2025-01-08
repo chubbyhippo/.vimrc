@@ -57,10 +57,10 @@ nnoremap <Leader>aq :copen<Cr>
 nnoremap <Leader>at :terminal<Cr>
 nnoremap <Leader>eV :e $MYVIMRC<Cr>
 nnoremap <Leader>h :only<Cr>
-nnoremap <Leader>sf :find<space>
-nnoremap <Leader>st :copen<bar>:grep<space>
+nnoremap <Leader>sf :find<Space>
+nnoremap <Leader>st :copen<bar>:grep<Space>
 nnoremap <Leader>sV :source $MYVIMRC<Cr>
-nnoremap <Leader>b :buffers<cr>:buffer<space>
+nnoremap <Leader>b :buffers<cr>:buffer<Space>
 nnoremap <Leader>w :w<Cr>
 nnoremap <Leader>q :q<Cr>
 nnoremap <Leader>Q :q!<Cr>
