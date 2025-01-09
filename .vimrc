@@ -29,6 +29,10 @@ set splitbelow splitright
 set tabstop=4
 set textwidth=79
 set wildmenu
+set wildignore=*/.git/*
+
+" Ignore dist (build folder)
+set wildignore+=*/dist/*
 
 " Begin the statusline
 set laststatus=2                        " Ensures the statusline is always visible
