@@ -30,8 +30,6 @@ set tabstop=4
 set textwidth=79
 set wildmenu
 set wildignore=*/.git/*
-
-" Ignore dist (build folder)
 set wildignore+=*/dist/*
 
 " Begin the statusline
