@@ -65,7 +65,7 @@ imap jj <Esc>
 nnoremap <Space> :noh<Cr> 
 let mapleader = " "
 nnoremap <Leader><Leader> <C-^>
-nnoremap <Leader>ap :Explore<Cr>
+nnoremap <Leader>ap :lcd<space>%:p:h<bar>:Lexplore<Cr>
 nnoremap <Leader>aq :copen<Cr>
 nnoremap <Leader>at :terminal<Cr>
 nnoremap <Leader>eV :e $MYVIMRC<Cr>
