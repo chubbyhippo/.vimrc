@@ -51,7 +51,14 @@ set statusline+=[%{&fileencoding}]      " File encoding (utf-8, etc.)
 set statusline+=\ %-14.(%l,%c%V%)       " Line number, column, virtual column
 set statusline+=\ [%P]                  " Percentage of the file read
 
-let g:netrw_liststyle=3
+" --------------------
+" Netrw Configuration
+" --------------------
+let g:netrw_browse_split = 4    " Open netrw in a vertical split
+let g:netrw_altv = 1            " Place the split window on the left
+let g:netrw_liststyle = 3       " Use tree-style view
+let g:netrw_winsize = 25        " Set netrw window size to 25% of Vim
+
 
 imap jj <Esc>
 
