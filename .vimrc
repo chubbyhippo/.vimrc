@@ -30,6 +30,7 @@ set tabstop=4
 set textwidth=79
 set wildmenu
 set wildignore=*/.git/*
+set wildignore+=*/node_modules/*
 set wildignore+=*/dist/*
 
 " Begin the statusline
