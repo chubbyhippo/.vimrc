@@ -31,6 +31,7 @@ set textwidth=79
 set wildmenu
 set wildignore=*/.git/*
 set wildignore+=*.swp,*.bak,*.tmp,*.log
+set wildignore+=*.o,*.obj,*.out,*.exe,*.class
 set wildignore+=*/node_modules/*
 set wildignore+=*/dist/*
 
