@@ -68,6 +68,7 @@ nnoremap <Leader>ap :Lexplore<Cr>
 nnoremap <Leader>aP :lcd<space>%:p:h<bar>:Lexplore<Cr>
 nnoremap <Leader>aq :copen<Cr>
 nnoremap <Leader>at :terminal<Cr>
+nnoremap <Leader>d :noh<Cr>
 nnoremap <Leader>eV :e $MYVIMRC<Cr>
 nnoremap <Leader>h :only<Cr>
 nnoremap <Leader>m :marks<cr>:'
