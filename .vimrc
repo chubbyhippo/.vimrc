@@ -81,6 +81,7 @@ nnoremap <Leader>q :q<Cr>
 nnoremap <Leader>Q :q!<Cr>
 
 nnoremap <Tab> gt
+nnoremap <S-Tab> gT
 
 nnoremap - <C-W>5-
 nnoremap = <C-W>5+
