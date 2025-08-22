@@ -54,7 +54,7 @@ set statusline+=\ [%P]                  " Percentage of the file read
 " --------------------
 " Netrw Configuration
 " --------------------
-let g:netrw_browse_split = 3    " Open netrw in a vertical split
+let g:netrw_browse_split = 3    " Open netrw in a new tab
 let g:netrw_altv = 1            " Place the split window on the left
 let g:netrw_liststyle = 3       " Use tree-style view
 let g:netrw_winsize = 25        " Set netrw window size to 25% of Vim
