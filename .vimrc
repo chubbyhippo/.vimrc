@@ -80,6 +80,8 @@ nnoremap <Leader>w :w<Cr>
 nnoremap <Leader>q :q<Cr>
 nnoremap <Leader>Q :q!<Cr>
 
+nnoremap <Tab> gt
+
 nnoremap - <C-W>5-
 nnoremap = <C-W>5+
 nnoremap _ <C-W>25<
