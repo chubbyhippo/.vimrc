@@ -1,5 +1,5 @@
 syntax enable
-colorscheme desert
+colorscheme habamax
 filetype plugin on
 
 set belloff=all
