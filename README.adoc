@@ -1,0 +1,23 @@
+= vimrc
+:raw_base_vimrc_url: https://raw.githubusercontent.com/chubbyhippo/.vimrc/refs/heads/master
+
+== wget
+
+[source,shell,subs="attributes"]
+----
+wget {raw_base_vimrc_url}/.vimrc -P ~
+----
+
+== curl
+
+[source,shell,subs="attributes"]
+----
+curl {raw_base_vimrc_url}/.vimrc -o ~/.vimrc
+----
+
+== powershell
+
+[source,powershell,subs="attributes"]
+----
+Invoke-WebRequest -Uri "{raw_base_vimrc_url}/.vimrc" -OutFile "$Home\.vimrc"
+----
