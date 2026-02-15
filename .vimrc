@@ -71,6 +71,7 @@ nnoremap <Leader>at :terminal<Cr>
 nnoremap <Leader>co :tabonly<Cr>
 nnoremap <Leader>dh :noh<Cr>
 nnoremap <Leader>eV :e $MYVIMRC<Cr>
+nnoremap <Leader>fs :w<Cr>
 nnoremap <Leader>h :only<Cr>
 nnoremap <Leader>m :marks<cr>:'
 nnoremap <Leader>sf :find<Space>
