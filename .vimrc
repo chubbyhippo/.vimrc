@@ -77,6 +77,7 @@ nnoremap <Leader>sf :find<Space>
 nnoremap <Leader>st :copen<bar>:grep<Space>
 nnoremap <Leader>sV :source $MYVIMRC<Cr>
 nnoremap <Leader>bb :buffers<cr>:buffer<Space>
+nnoremap <Leader>bk :q<Cr>
 nnoremap <Leader>w :w<Cr>
 nnoremap <Leader>q :q<Cr>
 nnoremap <Leader>Q :q!<Cr>
