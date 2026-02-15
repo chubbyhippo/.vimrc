@@ -94,7 +94,6 @@ nnoremap = <C-W>5+
 nnoremap _ <C-W>25<
 nnoremap + <C-W>25>
 
-nnoremap <C-L> <C-W>l
 nnoremap <C-S-H> <C-W>H
 nnoremap <C-S-J> <C-W>J
 nnoremap <C-S-K> <C-W>K
