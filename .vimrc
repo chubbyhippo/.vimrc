@@ -64,28 +64,28 @@ imap jj <Esc>
 nnoremap <Space> :noh<Cr> 
 let mapleader = " "
 nnoremap <Leader><Leader> <C-^>
-nnoremap <Leader>ap :Lexplore<Cr>
+nnoremap <Leader>Q :q!<Cr>
 nnoremap <Leader>aP :lcd<space>%:p:h<bar>:Lexplore<Cr>
+nnoremap <Leader>ap :Lexplore<Cr>
 nnoremap <Leader>aq :copen<Cr>
 nnoremap <Leader>at :terminal<Cr>
+nnoremap <Leader>bb :buffers<cr>:buffer<Space>
+nnoremap <Leader>bk :q<Cr>
 nnoremap <Leader>co :tabonly<Cr>
 nnoremap <Leader>dh :noh<Cr>
 nnoremap <Leader>eV :e $MYVIMRC<Cr>
 nnoremap <Leader>fs :w<Cr>
 nnoremap <Leader>h :only<Cr>
 nnoremap <Leader>m :marks<cr>:'
+nnoremap <Leader>q :q<Cr>
+nnoremap <Leader>sV :source $MYVIMRC<Cr>
 nnoremap <Leader>sf :find<Space>
 nnoremap <Leader>st :copen<bar>:grep<Space>
-nnoremap <Leader>sV :source $MYVIMRC<Cr>
-nnoremap <Leader>bb :buffers<cr>:buffer<Space>
-nnoremap <Leader>bk :q<Cr>
 nnoremap <Leader>wh <C-W>h
 nnoremap <Leader>wj <C-W>j
 nnoremap <Leader>wk <C-W>k
 nnoremap <Leader>wl <C-W>l
 nnoremap <Leader>wq :q<Cr>
-nnoremap <Leader>q :q<Cr>
-nnoremap <Leader>Q :q!<Cr>
 
 nnoremap <Tab> gt
 nnoremap <S-Tab> gT
