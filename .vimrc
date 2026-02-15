@@ -79,6 +79,7 @@ nnoremap <Leader>sV :source $MYVIMRC<Cr>
 nnoremap <Leader>bb :buffers<cr>:buffer<Space>
 nnoremap <Leader>bk :q<Cr>
 nnoremap <Leader>wh <C-W>h
+nnoremap <Leader>wj <C-W>j
 nnoremap <Leader>wq :q<Cr>
 nnoremap <Leader>q :q<Cr>
 nnoremap <Leader>Q :q!<Cr>
