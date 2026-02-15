@@ -104,11 +104,6 @@ inoremap <C-J> <C-W>j
 inoremap <C-K> <C-W>k
 inoremap <C-L> <C-W>l
 
-nnoremap <C-S-H> <C-W>H
-nnoremap <C-S-J> <C-W>J
-nnoremap <C-S-K> <C-W>K
-nnoremap <C-S-L> <C-W>L
-
 tnoremap <C-H> <C-W>h
 tnoremap <C-J> <C-W>j
 tnoremap <C-K> <C-W>k
