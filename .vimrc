@@ -78,6 +78,7 @@ nnoremap <Leader>fs :w<Cr>
 nnoremap <Leader>h :only<Cr>
 nnoremap <Leader>m :marks<cr>:'
 nnoremap <Leader>op :Lexplore<Cr>
+nnoremap <Leader>ot :terminal<Cr>
 nnoremap <Leader>qq :q<Cr>
 nnoremap <Leader>sV :source $MYVIMRC<Cr>
 nnoremap <Leader>sf :find<Space>
