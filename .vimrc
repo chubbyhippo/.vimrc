@@ -91,7 +91,6 @@ nnoremap <Leader>wq :q<Cr>
 
 nnoremap <C-.> gt
 nnoremap <C-,> gT
-
 nnoremap <Tab> gt
 nnoremap <S-Tab> gT
 
