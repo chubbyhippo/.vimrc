@@ -89,6 +89,8 @@ nnoremap <Leader>wk <C-W>k
 nnoremap <Leader>wl <C-W>l
 nnoremap <Leader>wq :q<Cr>
 
+nnoremap <C-.> gt
+
 nnoremap <Tab> gt
 nnoremap <S-Tab> gT
 
