@@ -2,6 +2,9 @@ syntax enable
 colorscheme habamax
 filetype plugin on
 
+" --------------------
+" General editor behavior
+" --------------------
 set belloff=all
 set grepprg=grep\ -HIRin\ $*\ .
 set autoindent
@@ -29,6 +32,10 @@ set splitbelow splitright
 set tabstop=4
 set textwidth=79
 set wildmenu
+
+" --------------------
+" Files and directories to ignore during wildcard expansion
+" --------------------
 set wildignore=*/.git/*
 set wildignore+=*.swp,*.bak,*.tmp,*.log
 set wildignore+=*.o,*.obj,*.out,*.exe,*.class
@@ -59,15 +66,22 @@ let g:netrw_altv = 1            " Place the split window on the left
 let g:netrw_liststyle = 3       " Use tree-style view
 let g:netrw_winsize = 25        " Set netrw window size to 25% of Vim
 
-imap jj <Esc>
+" --------------------
+" Insert-mode shortcuts
+" --------------------
+imap jj <Esc>                   " Quickly leave insert mode by typing jj
 
-nnoremap <Space> :noh<Cr> 
-let mapleader = " "
-nnoremap <Leader><Leader> <C-^>
-nnoremap <Leader>Q :q!<Cr>
+" --------------------
+" Leader key and common actions
+" --------------------
+nnoremap <Space> :noh<Cr>       " Clear highlighted search results with Space
+let mapleader = " "             " Use Space as the leader key
+
+nnoremap <Leader><Leader> <C-^> " Switch to the alternate file
+nnoremap <Leader>Q :q!<Cr>      " Force quit current window
 nnoremap <Leader>aP :lcd<space>%:p:h<bar>:Lexplore<Cr>
 nnoremap <Leader>ap :Lexplore<Cr>
-nnoremap <Leader>aq :copen<Cr>
+nnoremap <Leader>aq :copen<Cr>  " Open quickfix list
 nnoremap <Leader>at :terminal<Cr>
 nnoremap <Leader>bb :buffers<cr>:buffer<Space>
 nnoremap <Leader>bk :q<Cr>
@@ -83,25 +97,37 @@ nnoremap <Leader>qq :q<Cr>
 nnoremap <Leader>sV :source $MYVIMRC<Cr>
 nnoremap <Leader>sf :find<Space>
 nnoremap <Leader>st :copen<bar>:grep<Space>
+
+" --------------------
+" Window navigation
+" --------------------
 nnoremap <Leader>wh <C-W>h
 nnoremap <Leader>wj <C-W>j
 nnoremap <Leader>wk <C-W>k
 nnoremap <Leader>wl <C-W>l
 nnoremap <Leader>wq :q<Cr>
 
+" --------------------
+" Tab navigation
+" --------------------
 nnoremap <C-.> gt
 nnoremap <C-,> gT
 nnoremap <Tab> gt
 nnoremap <S-Tab> gT
 
+" --------------------
+" Window resizing
+" --------------------
 nnoremap - <C-W>5-
 nnoremap = <C-W>5+
 nnoremap _ <C-W>25<
 nnoremap + <C-W>25>
 
+" --------------------
+" Keep cursor centered while scrolling
+" --------------------
 nnoremap <C-D> <C-D>zz
 nnoremap <C-U> <C-U>zz
 
 " Automatically remove trailing whitespace on save
 autocmd BufWritePre * %s/\s\+$//e
-
