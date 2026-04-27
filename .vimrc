@@ -107,7 +107,7 @@ nnoremap <Leader>wk <C-W>k
 nnoremap <Leader>wl <C-W>l
 nnoremap <Leader>wq :q<Cr>
 nnoremap <C-h> <C-W>h
-
+nnoremap <C-j> <C-W>j
 " --------------------
 " Tab navigation
 " --------------------
