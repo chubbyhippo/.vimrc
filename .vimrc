@@ -106,6 +106,7 @@ nnoremap <Leader>wj <C-W>j
 nnoremap <Leader>wk <C-W>k
 nnoremap <Leader>wl <C-W>l
 nnoremap <Leader>wq :q<Cr>
+nnoremap <C-h> <C-W>h
 
 " --------------------
 " Tab navigation
