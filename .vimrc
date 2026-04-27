@@ -110,6 +110,8 @@ nnoremap <C-h> <C-W>h
 nnoremap <C-j> <C-W>j
 nnoremap <C-k> <C-W>k
 nnoremap <C-l> <C-W>l
+nnoremap <C-w> :q<Cr>
+
 " --------------------
 " Tab navigation
 " --------------------
