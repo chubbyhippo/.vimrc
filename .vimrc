@@ -50,6 +50,11 @@ set signcolumn=yes
 set confirm
 set completeopt=menuone,noinsert,noselect
 set splitkeep=screen
+set nowrap
+set list listchars=tab:»\ ,trail:·,nbsp:␣
+set mouse=a
+set diffopt+=vertical
+set ttimeout ttimeoutlen=100
 set undofile
 call mkdir(expand('~/.vim/undo'), 'p')
 set undodir=$HOME/.vim/undo//
