@@ -1,7 +1,6 @@
 set nocompatible
 
 syntax enable
-colorscheme habamax
 filetype plugin on
 
 " Use terminal cursor shapes where DECSCUSR escape sequences are supported.
