@@ -4,6 +4,15 @@ syntax enable
 colorscheme habamax
 filetype plugin on
 
+" Use terminal cursor shapes where DECSCUSR escape sequences are supported.
+if has('cursorshape') && (&term =~# 'xterm' || &term ==# 'win32')
+    let &t_SI = "\e[6 q" " Steady bar in Insert mode
+    let &t_SR = "\e[4 q" " Steady underline in Replace mode
+    let &t_EI = "\e[2 q" " Steady block in Normal mode
+    let &t_ti ..= "\e[2 q" " Start Vim with a steady block cursor
+    let &t_te ..= "\e[0 q" " Restore the terminal's default cursor on exit
+endif
+
 " --------------------
 " General editor behavior
 " --------------------
