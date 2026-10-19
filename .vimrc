@@ -17,8 +17,10 @@ endif
 " General editor behavior
 " --------------------
 set belloff=all
-set grepprg=rg\ --vimgrep\ $*
-set grepformat=%f:%l:%c:%m
+if executable('rg')
+    set grepprg=rg\ --vimgrep\ -uu\ $*
+    set grepformat=%f:%l:%c:%m
+endif
 set autoindent
 set autoread
 set backspace=indent,eol,start
