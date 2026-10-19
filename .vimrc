@@ -100,6 +100,19 @@ let g:netrw_winsize = 25        " Set netrw window size to 25% of Vim
 imap jj <Esc>                   " Quickly leave insert mode by typing jj
 
 " --------------------
+" Surround selection
+" --------------------
+vnoremap ` c`<Esc>pa`<Esc>
+vnoremap ' c'<Esc>pa'<Esc>
+vnoremap " c"<Esc>pa"<Esc>
+vnoremap ( c(<Esc>pa)<Esc>
+vnoremap ) c(<Esc>pa)<Esc>
+vnoremap [ c[<Esc>pa]<Esc>
+vnoremap ] c[<Esc>pa]<Esc>
+vnoremap { c{<Esc>pa}<Esc>
+vnoremap } c{<Esc>pa}<Esc>
+
+" --------------------
 " Leader key and common actions
 " --------------------
 nnoremap <Space> :noh<Cr>       " Clear highlighted search results with Space
