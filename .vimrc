@@ -1,3 +1,5 @@
+set nocompatible
+
 syntax enable
 colorscheme habamax
 filetype plugin on
