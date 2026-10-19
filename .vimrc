@@ -6,7 +6,8 @@ filetype plugin on
 " General editor behavior
 " --------------------
 set belloff=all
-set grepprg=grep\ -HIRin\ $*\ .
+set grepprg=rg\ --vimgrep\ $*
+set grepformat=%f:%l:%c:%m
 set autoindent
 set autoread
 set backspace=indent,eol,start
