@@ -33,7 +33,6 @@ set hlsearch
 set incsearch
 set matchtime=3
 set modifiable
-set nocompatible
 set number relativenumber
 set path+=**
 set shiftwidth=4
@@ -44,6 +43,16 @@ set splitbelow splitright
 set tabstop=4
 set textwidth=79
 set wildmenu
+set ignorecase smartcase
+set wildmode=longest:full,full
+set scrolloff=5 sidescrolloff=5
+set signcolumn=yes
+set confirm
+set completeopt=menuone,noinsert,noselect
+set splitkeep=screen
+set undofile
+call mkdir(expand('~/.vim/undo'), 'p')
+set undodir=$HOME/.vim/undo//
 
 " --------------------
 " Files and directories to ignore during wildcard expansion
