@@ -130,6 +130,8 @@ nnoremap <Leader>co :tabonly<Cr>
 nnoremap <Leader>dh :noh<Cr>
 nnoremap <Leader>eV :e $MYVIMRC<Cr>
 nnoremap <Leader>fs :w<Cr>
+nnoremap <Leader>ff :grep<Space>
+vnoremap <Leader>ff y:<C-U>execute 'silent grep! ' . shellescape(@")<Bar>copen<CR>
 nnoremap <Leader>h :only<Cr>
 nnoremap <Leader>m :marks<cr>:'
 nnoremap <Leader>op :Lexplore<Cr>
